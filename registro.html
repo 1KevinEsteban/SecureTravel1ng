@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style_registro.css"/>
+ 
+</head>
+
+<body>
+    <header>
+     <a href="index.html" class="logo"><img src="imagene/Imagen de WhatsApp 2023-06-25 a las 13.24.36.jpg"></a>
+    </header>
+
+    <br>
+    <hr color="0C3A64"><p>
+    
+   
+    <div class="Caja_Principal">
+        
+        <div class="Header_Formulario">
+            <form>
+                <h1><font face="Tahoma"> Registrarse </font></h1>
+                <br>
+
+                <label for="mail" class="Mod_Label">Nombres:</label>
+                <input class="Cuadro" type="text" id="nombre" placeholder="Ingrese sus nombres" name="Nombres">
+                <label for="p" class="Mod_Label">Apeliidos: </label>
+                <input class="Cuadro" type="text" id="apellidos" placeholder="Ingrese Sus apellidos "
+                    name="Apellidos"><br>
+                    <label for="mail" class="Mod_Label">Fecha de nacimiento:</label>
+                <input class="calendario" type="date" id="fecha-nacimiento">
+
+                <br><br> <label for="mail" class="Mod_Label">Tipo de documento:</label>
+
+                    <div class="select" tabindex="1">
+
+                     <select name="Tipo de documento" class="select" id="Tipo_de_documento">
+                        <option>Cédula de ciudadanía</option>
+                        <option>Pasaporte</option>
+                        <option>Cédula de extranjería</option>
+                    </select>
+                    </div>
+                    <p><br>
+                    <label for="mail" class="Mod_Label">Número de documento:</label>
+
+                <input class="Cuadro" type="text" id="numero_de_documento" placeholder="Ingrese su numero de documento" name="numero_de_documento">
+                    <br>
+                    <label for="mail" class="Mod_Label">Fecha de expedición</label>
+                <input class="calendario" type="date" id="fecha-nacimiento">
+
+                <br><br>
+                <label for="mail" class="Mod_Label">Correo electrónico:</label>
+                <input class="Cuadro" type="mail" id="correo" placeholder="Ingrese su correo electrónico" name="correo">
+                    <label for="p" class="Mod_Label">Nueva contraseña: </label>
+                <input class="Cuadro" type="password" id="password" placeholder="Ingrese Su Contraseña "
+                    name="Contraseña">
+                    <label for="p" class="Mod_Label">Confirmar contraseña: </label>
+                <input class="Cuadro" type="password" id="password" placeholder="Ingrese Su Contraseña "
+                    name="Contraseña">
+
+                    <div align=left><input class="check" type="checkbox" name="aceptar">&nbsp; <font color="#17202A"> Acepto los terminos y condiciones</font><p>
+                    </div>
+                    <a href="" class="password">¿Olvidaste tu contraseña?</a>
+                    &nbsp; &nbsp;
+                    <div class="clearfix"> </div>
+                 <input class="Boton" type="submit" value="Entrar">
+                <h5 id="Mensaje_Registro">
+                    <a id="Vinculo_Registar" href="inicio_sesion.html" title="¿Ya estas Registrado?">Iniciar sesión</a>
+                </h5>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
